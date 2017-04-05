@@ -1,0 +1,41 @@
+.datepickertext {
+	text-align: center;
+	line-height: 30px;
+	color:#444;
+}
+
+.datepickerday {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.datepickerlink {
+	border:1px solid white;
+}
+.datepickerlink:hover {
+	border:1px solid #444;
+	cursor:pointer;cursor:hand;	
+}
+.datepickerselected {
+	background-color:#444;
+	color:white;
+}
+.datepickerarrow {
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	text-align:center;
+	line-height:30px;
+}
+
+.datepickerheader {
+	width:100px;
+	height:30px;
+	margin:0 auto;
+	text-align:center;
+	line-height:30px;
+}
+.datepickerheadercontainer {
+	width:100%;
+	height:35px;
+}
