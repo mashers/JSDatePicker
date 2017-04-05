@@ -32,7 +32,7 @@ The parameters of this function, in order, are as follows:
 `prepDatePicker()` can be called repeatedly, for example if you need to change the displayed or selected date after the picker has already been created. Since `prepDatePicker()` completely replaces the content of the date picker div, calling this function again will just replace the date picker with a new one showing the specified date.
 
 # Displaying the picker
-The div containing the picker will have its display mode set to `inline-block` when `prepDatePicker()` is called on it. If you need a different display method, you can wrap the div in another div with a different display method to get the desired effect. In so doing, you could embed the picker in a modal, a popup, or just display it inline on the page.
+The div containing the picker will have its display mode set to `inline-block` when `prepDatePicker()` is called on it. This means that by default the date picker will be visible inline with the rest of the page content as soon as you call `prepDatePicker()`. If you need a different display method, you can wrap the div in another div with a different display method to get the desired effect. In so doing, you could embed the picker in a modal, a popup, or just display it inline on the page.
 
 # To do
 This date picker currently does what I need it to do for a particular project, but should work out of the box for others. Currently the only way of customising the picker is by editing the .js and .css file to make changes. In the future I could add customisation options. I'll accept pull requests if anybody else feels like adding this. However, the idea of this project is to keep it simple and not over-complicate things.
