@@ -1,6 +1,5 @@
 # JSDatePicker
-A simple date picker written in JavaScript and CSS. Does not require any external libraries. Produces W3C 
-validated HTML. Works in any standards compliant browser which supports CSS and JavaScript.
+A simple date picker written in JavaScript and CSS. Does not require any external libraries and does not need JQuery. Produces W3C validated HTML. Works in any standards compliant browser which supports CSS and JavaScript.
 
 # Installation
 Just include the stylesheet and script in the head of your HTML document:
