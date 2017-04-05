@@ -11,7 +11,7 @@ Just include the stylesheet and script in the head of your HTML document:
 # Usage
 1. Create a div to contain the date picker. Any content placed inside this div will be replaced by the date picker.
 ```HTML
-<div id='datepicker'>
+<div id='datepicker'></div>
 ```
 
 2. Call the `prepDatePicker()` function to set up the initial state of the picker.
