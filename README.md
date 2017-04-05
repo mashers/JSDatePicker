@@ -18,7 +18,7 @@ Just include the stylesheet and script in the head of your HTML document:
 ```HTML
 <script>
 prepDatePicker('datepicker', 2017, 04, 05, 2017, 04, 05, function(year, month, day){
-  alert('You picked ' + year + '-' + month + 'day');
+  alert('You picked ' + year + '-' + month + '-' + day);
 });
 </script>
 ```
@@ -28,6 +28,8 @@ The parameters of this function, in order, are as follows:
 - `year`, `month`, `day`: the date which should be shown on the picker when it is initially displayed.
 - `selectedyear`, `selectedmonth`, `selectedday`: the date on the picker which should be shown as currently selected. This will usually be the same as `year`, `month` and `day` initially so that the currently selected date will be visible in the picker when it is opened.
 - `callback`: a JavaScript function which is called when a date is selected in the picker. In the example above, the result of this will be an alert which shows the date in YYYY-MM-DD format.
+
+`prepDatePicker()` can be called repeatedly, for example if you need to change the displayed or selected date after the picker has already been created. Since `prepDatePicker()` completely replaces the content of the date picker div, calling this function again will just replace the date picker with a new one showing the specified date.
 
 # Displaying the picker
 The div containing the picker will have its display mode set to `inline-block` when `prepDatePicker()` is called on it. If you need a different display method, you can wrap the div in another div with a different display method to get the desired effect. In so doing, you could embed the picker in a modal, a popup, or just display it inline on the page.
